@@ -79,7 +79,6 @@ def visualize_graph(graph, output_dir='results', filename='transport_network_gra
     plt.close()
 
 
-
 def analyze_graph(graph):
     """
     Аналіз характеристик графа транспортної мережі.
