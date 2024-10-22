@@ -128,7 +128,6 @@ def visualize_path_on_graph(
 
     # Обчислюємо розміри вузлів пропорційно до їх ступеня
     node_sizes = [300 * graph.degree(node) for node in graph.nodes()]
-    # node_sizes = [500 * 1 for node in graph.nodes()]
 
     # Малюємо граф без шляху
     nx.draw(
